@@ -73,7 +73,7 @@ def test_verificar_letras_con_igualdad():
     #se debe corregir la función igualdad
     pass
 
-def test_verificar_letra_correcta_en_archivo():
+def test_verificar_letra_y_archivo_correcto():
     # Arrange
     tetris = JuegoTetris()
     letra = "S"
@@ -101,3 +101,4 @@ def test_verificar_letra_correcta_en_archivo():
     esperado = archivo_esperado.readlines()
     # Assert
     assert esperado == actual
+#######
